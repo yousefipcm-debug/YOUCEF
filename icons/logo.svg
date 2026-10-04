@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a7bff"/><stop offset=".55" stop-color="#3b4ee6"/><stop offset="1" stop-color="#2433b8"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0b1260" flood-opacity=".35"/></filter>
+  </defs>
+  <filter id="dock" x="-10%" y="-10%" width="120%" height="125%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-opacity=".3"/></filter>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)" filter="url(#dock)"/>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#gloss)"/>
+  <rect x="100.5" y="100.5" width="823" height="823" rx="185" fill="none" stroke="#fff" stroke-opacity=".18"/>
+  <g transform="translate(512 512) scale(.8) translate(-512 -512)">
+  <g filter="url(#soft)">
+    <circle cx="512" cy="520" r="250" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="44"/>
+    <circle cx="512" cy="520" r="250" fill="none" stroke="#fff" stroke-width="44" stroke-linecap="round" stroke-dasharray="1178 1600" transform="rotate(-90 512 520)"/>
+    <path d="M462 418 L462 622 L640 520 Z" fill="#fff" stroke="#fff" stroke-width="46" stroke-linejoin="round"/>
+  </g>
+  <path d="M790 196 C798 236 812 250 852 258 C812 266 798 280 790 320 C782 280 768 266 728 258 C768 250 782 236 790 196 Z" fill="#fff"/>
+  <path d="M858 330 C862 348 868 354 886 358 C868 362 862 368 858 386 C854 368 848 362 830 358 C848 354 854 348 858 330 Z" fill="#fff" fill-opacity=".8"/>
+  </g>
+</svg>
