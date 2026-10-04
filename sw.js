@@ -1,6 +1,6 @@
 // Clean Content service worker: keeps the app shell available offline.
 // YouTube videos and thumbnails always load from the network.
-const CACHE = "clean-content-v1";
+const CACHE = "clean-content-v2";
 const SHELL = [
   "./",
   "./index.html",
